@@ -228,7 +228,7 @@ class Pedestrian_Segmentation:
 
                 img = cv2.addWeighted(img, 1, mask, 0.5, 0)
 
-                cv2.rectangle(img, (boxes[i][0], boxes[i][1]), (boxes[i][2],boxes[i][3]) , (0,200,0))
+                # cv2.rectangle(img, (boxes[i][0], boxes[i][1]), (boxes[i][2],boxes[i][3]) , (0,200,0))
 
             cv2.imshow("original", original)
             cv2.imshow("masked",img)
@@ -241,7 +241,7 @@ model = Pedestrian_Segmentation()
 model.load()
 
 # Test
-index = 5
+index = 2
 root = "PennFudanPed/Test"
 paths = sorted(os.listdir("PennFudanPed/Test"))
 path = os.path.join(root, paths[index])
