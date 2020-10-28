@@ -1,6 +1,6 @@
 # Pedestrians Instance Segmentation with Mask R-CNN using Pytorch
 
-Pedestrians detection and semantic segmentation with Mask R-CNN using transfer learning on PennFudanPed Dataset
+Pedestrians detection and segmentation with Mask R-CNN using transfer learning on PennFudanPed Dataset
 Implemented in **Pytorch**
 
 ![Screenshot from 2020-10-28 14-59-52](https://user-images.githubusercontent.com/35613645/97443320-8fb59280-1933-11eb-8fb2-83a436e7b0ab.png)
