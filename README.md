@@ -10,7 +10,7 @@ Implemented in **Pytorch**
 
 PennFundanPed Dataset consist of **170 images** of pedestrians and segmentation **mask** for each image
 
-![Dataset Link](https://www.cis.upenn.edu/~jshi/ped_html/)
+Dataset Link: (https://www.cis.upenn.edu/~jshi/ped_html/)
 
 
 ## Neural Network 
